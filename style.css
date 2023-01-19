@@ -57,9 +57,9 @@ a:hover {
 /*Header Section*/
 header {
     width: 100%;
-    height: 30vh;
+    height: 40%;
     display: flex;
-    flex: auto;
+    flex: 1 0 auto;
     background: #2f3e53;
     justify-content: center;
     align-items: center;
@@ -102,12 +102,47 @@ header {
     align-items: center;
 }
 
-
+/*Section*/
 
 section {
     width: 100%;
-    flex: auto;
+    height: 500px;
     background: #e9ecf1;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one h2 {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1f2937;
+    margin-top: 50px;
+        
+}
+
+.content-one {
+    width: 9%;
+    font-size: 18px;
+    text-align: center;
+    color: #1f2937;
+    padding: 10px;
+    margin: 0;
+    
+    
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: solid 3px #3882f6;
+    border-radius: 10%;
+    
 }
 
 .two {
@@ -116,7 +151,8 @@ section {
 
 footer {
     width: 100%;
-    height: 10vh;
+    height: 10%;
+    flex: 1 0 auto;
     background: #1f2937;
 
 }
