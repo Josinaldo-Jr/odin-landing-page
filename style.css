@@ -60,7 +60,7 @@ header {
     height: 40%;
     display: flex;
     flex: 1 0 auto;
-    background: #2f3e53;
+    background: #1f2937;
     justify-content: center;
     align-items: center;
 }
@@ -88,6 +88,8 @@ header {
     margin-top: 5px;
     padding: 5px 25px;
     border-radius: 10%;
+    border: none;
+   
 }
 
 .content-header input:hover {
@@ -193,5 +195,9 @@ footer {
     height: 10%;
     flex: 1 0 auto;
     background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
